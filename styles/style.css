@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter-font> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+body{
+    font-family: sans-serif;
+    background-color: #F5F8FF;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 150px;
+    /* border-radius: 1px solid #; */
+}
+.nav-anchor{
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    margin-left: 400px;
+}
+.nav-anchor li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+    gap: 50px;
+    /* padding: 10px; */
+    /* margin-left: 10px; */
+}
+.nav-anchor li a.home{
+    font-weight: bold;
+    color: black;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+    font-size: 16px;
+}
