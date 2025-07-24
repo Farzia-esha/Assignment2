@@ -187,7 +187,7 @@ margin-top: 150px;
 
 /* join section */
 .join{
-    background-image: url("../images/news-letter-bg.png");
+    background-image: url(../images/news-letter-bg.png);
     width: 100%;
     height: 530px;
     margin-top: 50px;
