@@ -16,11 +16,22 @@
 .orange{
     color:#E95A08 ;
 }
+.btn {
+  background: #E95A08;
+  padding: 15px 25px;
+  border-radius: 6px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+}
 body{
     font-family: sans-serif;
     background-color: #F5F8FF;
 }
 
+/* nav style */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -60,7 +71,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 90px 150px;
+    margin: 100px 150px;
 
 }
 .banner h1{
@@ -87,5 +98,51 @@ margin-top: 150px;
     margin-top: 40px;
 
 }
+
+/* our plants */
+.grid{
+    margin: 100px 150px;
+}
+.plants{
+    text-align: center;
+    align-items: center;
+    margin: 100px 150px;
+}
+.plants h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+    gap: 20px;
+}
+.card {
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+}
+.card p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.card h3 {
+  font-weight: bold;
+  color: #000000;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.card img{
+    width: 100%;
+}
+
+
+
+
 
 
