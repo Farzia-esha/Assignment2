@@ -450,17 +450,28 @@ footer{
     .plant-lover{
         flex-direction: column;
         margin:0;
+        width: 561px;
     }
     .trusted-badge{
         visibility: hidden;
     }
     .plant-lover-image{
-        margin-top: 20px;
+        margin-top: 20px; 
+        margin-bottom: 20px;
         width: 550px;
 
     }
+    .plant-lover-img{
+        width: 520px;
+        height: 520px;
+        margin-left: 10px;
+    }
     .plant-lover-text{
-
+        padding: 30px;
+        margin: 10px;
+    }
+    .plant-lover-text h2{
+        margin: 0;
     }
 
     /* deal section */
