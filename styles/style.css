@@ -422,8 +422,9 @@ footer{
     .banner-text{
         margin:16px;
     }
-    .banner-img{
-        width: 100%;
+    .banner-img img{
+        width: 393px;
+        height: 245px;
     }
 
 
@@ -523,7 +524,7 @@ footer{
         font-size: 16px;
     }
     .footer-logo p{
-        width: 395px;
+        width: 380px;
     }
     .footer-img{
         justify-content: start;
